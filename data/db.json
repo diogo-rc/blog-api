@@ -1,0 +1,32 @@
+{
+  "ids": {
+    "Post": 8,
+    "Tag": 10,
+    "Comment": 2
+  },
+  "models": {
+    "Post": {
+      "1": "{\"title\":\"Titulo de teste\",\"content\":\"Este post foi criado meramente para efeitos de teste\",\"slug\":\"titulo-de-teste\",\"additionalProp1\":{},\"id\":1}",
+      "2": "{\"title\":\"Titulo de teste\",\"content\":\"Este post foi criado meramente para efeitos de teste\",\"slug\":\"titulo-de-teste\",\"additionalProp1\":{},\"id\":2}",
+      "3": "{\"title\":\"post1\",\"content\":\"post1\",\"slug\":\"post1\",\"id\":3}",
+      "4": "{\"title\":\"post2\",\"content\":\"post2\",\"slug\":\"post2\",\"id\":4}",
+      "5": "{\"title\":\"post3\",\"content\":\"post3\",\"slug\":\"post3\",\"id\":5}",
+      "6": "{\"title\":\"post1\",\"content\":\"post1\",\"slug\":\"post1\",\"id\":6}",
+      "7": "{\"title\":\"post1\",\"content\":\"post1\",\"slug\":\"post1\",\"id\":7}"
+    },
+    "Tag": {
+      "1": "{\"name\":\"tag1\",\"id\":1}",
+      "2": "{\"name\":\"tag2\",\"id\":2}",
+      "3": "{\"name\":\"tag3\",\"id\":3}",
+      "4": "{\"name\":\"asd\",\"id\":4}",
+      "5": "{\"name\":\"asd\",\"id\":5}",
+      "6": "{\"name\":\"asd\",\"id\":6}",
+      "7": "{\"name\":\"asd\",\"id\":7}",
+      "8": "{\"name\":\"asd\",\"id\":8}",
+      "9": "{\"name\":\"tag1\",\"id\":9}"
+    },
+    "Comment": {
+      "1": "{\"content\":\"teste\",\"postId\":1,\"id\":1}"
+    }
+  }
+}

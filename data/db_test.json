@@ -1,0 +1,48 @@
+{
+  "ids": {
+    "Post": 7,
+    "Tag": 12,
+    "Comment": 8,
+    "Category": 7
+  },
+  "models": {
+    "Post": {
+      "1": "{\"title\":\"post1\",\"content\":\"post1\",\"id\":1}",
+      "2": "{\"title\":\"post2\",\"content\":\"post2\",\"id\":2}",
+      "3": "{\"title\":\"post3\",\"content\":\"post3\",\"id\":3}",
+      "4": "{\"title\":\"post4\",\"content\":\"post4\",\"id\":4}",
+      "5": "{\"title\":\"post5\",\"content\":\"post5\",\"id\":5}",
+      "6": "{\"title\":\"post6\",\"content\":\"post6\",\"id\":6}"
+    },
+    "Tag": {
+      "1": "{\"name\":\"tag1\",\"id\":1}",
+      "2": "{\"name\":\"tag2\",\"id\":2}",
+      "3": "{\"name\":\"tag3\",\"id\":3}",
+      "4": "{\"name\":\"tag4\",\"id\":4}",
+      "5": "{\"name\":\"tag1\",\"id\":5}",
+      "6": "{\"name\":\"tag1\",\"id\":6}",
+      "7": "{\"name\":\"tag1\",\"id\":7}",
+      "8": "{\"name\":\"tag5\",\"id\":8}",
+      "9": "{\"name\":\"tag1\",\"id\":9}",
+      "10": "{\"name\":\"tag1\",\"id\":10}",
+      "11": "{\"name\":\"tag1\",\"id\":11}"
+    },
+    "Comment": {
+      "1": "{\"content\":\"comment1\",\"postId\":1,\"id\":1}",
+      "2": "{\"content\":\"comment2\",\"postId\":1,\"id\":2}",
+      "3": "{\"content\":\"comment3\",\"postId\":1,\"id\":3}",
+      "4": "{\"content\":\"comment1\",\"postId\":3,\"id\":4}",
+      "5": "{\"content\":\"comment2\",\"postId\":3,\"id\":5}",
+      "6": "{\"content\":\"comment3\",\"postId\":3,\"id\":6}",
+      "7": "{\"content\":\"comment of test\",\"postId\":1,\"id\":7}"
+    },
+    "Category": {
+      "1": "{\"postId\":1,\"tagId\":5,\"id\":1}",
+      "2": "{\"postId\":1,\"tagId\":6,\"id\":2}",
+      "3": "{\"postId\":1,\"tagId\":7,\"id\":3}",
+      "4": "{\"postId\":1,\"tagId\":10,\"id\":4}",
+      "5": "{\"postId\":1,\"tagId\":11,\"id\":5}",
+      "6": "{\"postId\":1,\"tagId\":9,\"id\":6}"
+    }
+  }
+}
